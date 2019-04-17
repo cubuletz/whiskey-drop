@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -42,7 +44,7 @@
             <a href="/login">Sign In/Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning text-center"><strong>
@@ -67,12 +69,14 @@
                             responsibly.</small></p>
                 </section>
             </div>
-        </div><!-- /.callout -->
-        <hr>
+        </div>
+    </div>
+    
+   <!-- /.callout -->
 
         <!-- Quotes -->
 
-
+<div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -112,9 +116,9 @@
         </section>
 
         <!-- /.quotes -->
-        <hr>
+    </div>
 
-
+<div class="features-container">
         <!-- Features -->
         <section class="features">
             <div class="row">
@@ -168,7 +172,8 @@
             </div>
         </section>
         <!-- /.features -->
-    </article>
+    </div>
+    
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
